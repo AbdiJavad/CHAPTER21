@@ -12,11 +12,9 @@
           set.add((GeometricObject) new Circle(40));
           set.add((GeometricObject) new Circle(40));
           set.add((GeometricObject) new Rectangle(4, 1));
-
-//Todo
-
-         // System.out.println("A sorted set of geometric objects");
-        //  for (GeometricObject element: set)
-            //  System.out.println("area = " + element.getArea());
+          
+           System.out.println("A sorted set of geometric objects");
+          for (GeometricObject element: set)
+             System.out.println("area = " + element.getClass());
           }
   }
